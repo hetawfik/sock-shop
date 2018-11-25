@@ -17,7 +17,7 @@ spec:
         ports:
         - name: mongo
           containerPort: 27017
- securityContext:
+        securityContext:
           capabilities:
             drop:
               - all
